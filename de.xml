@@ -1,0 +1,76 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<language xmlns="http://www.woltlab.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.woltlab.com/XSD/language.xsd" languagecode="de">
+	<category name="wcf.acp.group">
+		<item name="wcf.acp.group.option.admin.navigation.canAddNavigation"><![CDATA[Kann Navigationen erstellen]]></item>
+		<item name="wcf.acp.group.option.admin.navigation.canAddNavigation.description"><![CDATA[Mitglieder dieser Benutzergruppe können Navigationen erstellen.]]></item>
+		<item name="wcf.acp.group.option.admin.navigation.canAddNavigationItem"><![CDATA[Kann Einträge erstellen]]></item>
+		<item name="wcf.acp.group.option.admin.navigation.canAddNavigationItem.description"><![CDATA[Mitglieder dieser Benutzergruppe können Einträge erstellen.]]></item>
+		<item name="wcf.acp.group.option.admin.navigation.canDeleteNavigation"><![CDATA[Kann Navigationen löschen]]></item>
+		<item name="wcf.acp.group.option.admin.navigation.canDeleteNavigation.description"><![CDATA[Mitglieder dieser Benutzergruppe können Navigationen löschen.]]></item>
+		<item name="wcf.acp.group.option.admin.navigation.canDeleteNavigationItem"><![CDATA[Kann Einträge löschen]]></item>
+		<item name="wcf.acp.group.option.admin.navigation.canDeleteNavigationItem.description"><![CDATA[Mitglieder dieser Benutzergruppe können Einträge löschen.]]></item>
+		<item name="wcf.acp.group.option.admin.navigation.canEditNavigation"><![CDATA[Kann Navigationen bearbeiten]]></item>
+		<item name="wcf.acp.group.option.admin.navigation.canEditNavigation.description"><![CDATA[Mitglieder dieser Benutzergruppe können Navigationen bearbeiten.]]></item>
+		<item name="wcf.acp.group.option.admin.navigation.canEditNavigationItem"><![CDATA[Kann Einträge bearbeiten]]></item>
+		<item name="wcf.acp.group.option.admin.navigation.canEditNavigationItem.description"><![CDATA[Mitglieder dieser Benutzergruppe können Einträge bearbeiten.]]></item>
+		<item name="wcf.acp.group.option.category.admin.navigation"><![CDATA[Navigationen]]></item>
+		<item name="wcf.acp.group.option.category.admin.navigation.description"><![CDATA[]]></item>
+	</category>
+	<category name="wcf.acp.menu">
+		<item name="wcf.acp.menu.link.navigation"><![CDATA[Navigationen]]></item>
+		<item name="wcf.acp.menu.link.navigation.add"><![CDATA[Navigation hinzufügen]]></item>
+		<item name="wcf.acp.menu.link.navigation.view"><![CDATA[Navigationen auflisten]]></item>
+		<item name="wcf.acp.menu.link.navigation.item.add"><![CDATA[Eintrag hinzufügen]]></item>
+		<item name="wcf.acp.menu.link.navigation.item.view"><![CDATA[Einträge auflisten]]></item>
+	</category>
+	<category name="wcf.acp.navigation">
+		<item name="wcf.acp.navigation.add"><![CDATA[Navigation hinzufügen]]></item>
+		<item name="wcf.acp.navigation.add.success"><![CDATA[Die Navigation wurde erfolgreich hinzugefügt.]]></item>
+		<item name="wcf.acp.navigation.data"><![CDATA[Daten]]></item>
+		<item name="wcf.acp.navigation.delete"><![CDATA[Navigation löschen]]></item>
+		<item name="wcf.acp.navigation.delete.success"><![CDATA[Die Navigation wurde erfolgreich gelöscht.]]></item>
+		<item name="wcf.acp.navigation.delete.sure"><![CDATA[Wollen Sie diese Navigation wirklich löschen?]]></item>
+		<item name="wcf.acp.navigation.edit"><![CDATA[Navigation bearbeiten]]></item>
+		<item name="wcf.acp.navigation.edit.success"><![CDATA[Die Navigation wurde erfolgreich bearbeitet.]]></item>
+		<item name="wcf.acp.navigation.item.add"><![CDATA[Eintrag hinzufügen]]></item>
+		<item name="wcf.acp.navigation.item.add.success"><![CDATA[Der Eintrag wurde erfolgreich hinzugefügt.]]></item>
+		<item name="wcf.acp.navigation.item.classification"><![CDATA[Einordnung]]></item>
+		<item name="wcf.acp.navigation.item.data"><![CDATA[Daten]]></item>
+		<item name="wcf.acp.navigation.item.delete"><![CDATA[Eintrag löschen]]></item>
+		<item name="wcf.acp.navigation.item.delete.success"><![CDATA[Der Eintrag wurde erfolgreich gelöscht.]]></item>
+		<item name="wcf.acp.navigation.item.delete.sure"><![CDATA[Wollen Sie diesen Eintrag wirklich löschen?]]></item>
+		<item name="wcf.acp.navigation.item.display"><![CDATA[Darstellung]]></item>
+		<item name="wcf.acp.navigation.item.edit"><![CDATA[Eintrag bearbeiten]]></item>
+		<item name="wcf.acp.navigation.item.edit.success"><![CDATA[Der Eintrag wurde erfolgreich bearbeitet.]]></item>
+		<item name="wcf.acp.navigation.item.icon"><![CDATA[Dateiname des Icons]]></item>
+		<item name="wcf.acp.navigation.item.icon.description"><![CDATA[Geben Sie den Dateinamen einer kleinen Bilddatei an (S-Größe, in der Regel 16px:16px), die im icon-Ordner liegt.]]></item>
+		<item name="wcf.acp.navigation.item.language"><![CDATA[Sprache]]></item>
+		<item name="wcf.acp.navigation.item.language.description"><![CDATA[Bitte wählen Sie hier die Sprache der folgenden Texte aus.]]></item>
+		<item name="wcf.acp.navigation.item.navigation"><![CDATA[Navigation]]></item>
+		<item name="wcf.acp.navigation.item.navigation.description"><![CDATA[Wählen Sie eine Navigation, deren Einträge Sie verwalten möchten.]]></item>		
+		<item name="wcf.acp.navigation.item.navigationID"><![CDATA[Navigation]]></item>
+		<item name="wcf.acp.navigation.item.navigationID.description"><![CDATA[Wählen Sie eine Navigation.]]></item>
+		<item name="wcf.acp.navigation.item.navigationItem"><![CDATA[Eintrag]]></item>
+		<item name="wcf.acp.navigation.item.navigationItemID"><![CDATA[Eintrag-ID]]></item>
+		<item name="wcf.acp.navigation.item.showOrder"><![CDATA[Reihenfolge]]></item>
+		<item name="wcf.acp.navigation.item.showOrder.description"><![CDATA[Geben Sie hier die Position des Eintrags in der Navigation an.]]></item>
+		<item name="wcf.acp.navigation.item.title"><![CDATA[Titel]]></item>
+		<item name="wcf.acp.navigation.item.title.description"><![CDATA[Bestimmen Sie hier den Titel des Eintrags.]]></item>
+		<item name="wcf.acp.navigation.item.url"><![CDATA[Adresse (URL)]]></item>
+		<item name="wcf.acp.navigation.item.url.description"><![CDATA[Geben Sie hier die Adresse an, die mit dem Eintrag verknüpft ist.]]></item>
+		<item name="wcf.acp.navigation.item.view"><![CDATA[Einträge]]></item>
+		<item name="wcf.acp.navigation.item.view.count"><![CDATA[Insgesamt {#$items} {if $items == 1}Eintrag{else}Einträge{/if}]]></item>
+		<item name="wcf.acp.navigation.item.view.count.noNavigations"><![CDATA[Derzeit sind keine Navigationen vorhanden, zu denen Einträge hinzugefügt werden könnten.]]></item>
+		<item name="wcf.acp.navigation.item.view.count.noNavigationItems"><![CDATA[Derzeit sind keine Einträge vorhanden.]]></item>
+		<item name="wcf.acp.navigation.items"><![CDATA[Einträge auflisten]]></item>
+		<item name="wcf.acp.navigation.navigationID"><![CDATA[Navigation-ID]]></item>
+		<item name="wcf.acp.navigation.navigationItems"><![CDATA[Einträge]]></item>
+		<item name="wcf.acp.navigation.title"><![CDATA[Titel]]></item>
+		<item name="wcf.acp.navigation.view"><![CDATA[Navigationen]]></item>
+		<item name="wcf.acp.navigation.view.count"><![CDATA[Insgesamt {#$items} Navigation{if $items != 1}en{/if}]]></item>
+		<item name="wcf.acp.navigation.view.count.noNavigations"><![CDATA[Derzeit sind keine Navigationen vorhanden.]]></item>
+	</category>
+	<category name="wcf.navigation">
+		<item name="wcf.navigation.title"><![CDATA[]]></item>
+	</category>
+</language>

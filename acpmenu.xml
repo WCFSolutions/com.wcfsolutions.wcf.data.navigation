@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<data xmlns="http://www.woltlab.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.woltlab.com/XSD/acp-menu.xsd">
+	<import>
+		<acpmenuitem name="wcf.acp.menu.link.navigation">
+			<parent>wcf.acp.menu.link.display</parent>
+		</acpmenuitem>	
+		<acpmenuitem name="wcf.acp.menu.link.navigation.view">
+			<parent>wcf.acp.menu.link.navigation</parent>
+			<showorder>1</showorder>
+			<link>index.php?page=NavigationList</link>
+			<icon>icon/navigationM.png</icon>
+			<permissions>admin.navigation.canEditNavigation,admin.portal.canDeleteNavigation</permissions> 
+		</acpmenuitem>
+		<acpmenuitem name="wcf.acp.menu.link.navigation.add">
+			<parent>wcf.acp.menu.link.navigation</parent>
+			<showorder>2</showorder>
+			<link>index.php?form=NavigationAdd</link>
+			<permissions>admin.navigation.canAddNavigation</permissions> 
+		</acpmenuitem>
+		<acpmenuitem name="wcf.acp.menu.link.navigation.item">
+			<parent>wcf.acp.menu.link.navigation</parent>
+			<showorder>3</showorder>
+		</acpmenuitem>	
+		<acpmenuitem name="wcf.acp.menu.link.navigation.item.view">
+			<parent>wcf.acp.menu.link.navigation.item</parent>
+			<showorder>1</showorder>
+			<link>index.php?page=NavigationItemList</link>
+			<icon>icon/navigationItemM.png</icon>
+			<permissions>admin.navigation.canEditNavigationItem,admin.portal.canDeleteNavigationItem</permissions> 
+		</acpmenuitem>
+		<acpmenuitem name="wcf.acp.menu.link.navigation.item.add">
+			<parent>wcf.acp.menu.link.navigation.item</parent>
+			<showorder>2</showorder>
+			<link>index.php?form=NavigationItemAdd</link>
+			<permissions>admin.navigation.canAddNavigationItem</permissions> 
+		</acpmenuitem>
+	</import>
+</data>
