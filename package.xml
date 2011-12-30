@@ -1,10 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<package name="com.wcfsolutions.wcf.data.navigation" xmlns="http://www.woltlab.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.woltlab.com/XSD/package.xsd">
+<package name="com.wcfsolutions.wcf.navigation" xmlns="http://www.woltlab.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.woltlab.com/XSD/package.xsd">
 	<packageinformation>
 		<packagename>Navigation Support</packagename>
-		<isunique>1</isunique>
-		<version>1.1.0</version>
-		<date>2011-09-09</date>
+		<version>2.0.0</version>
+		<date>2011-12-30</date>
 	</packageinformation>
 	
 	<authorinformation>
@@ -13,44 +12,23 @@
 	</authorinformation>
 	
 	<requiredpackages>
-		<requiredpackage minversion="1.1.4 Beta 1">com.woltlab.wcf</requiredpackage>
-		<requiredpackage minversion="1.1.0 Beta 1">com.woltlab.wcf.system.style</requiredpackage>
+		<requiredpackage minversion="2.0.0 Alpha 1">com.woltlab.wcf</requiredpackage>
 	</requiredpackages>
 	
-	<optionalpackages>
+	<!--<optionalpackages>
 		<optionalpackage file="optionals/com.wcfsolutions.wcf.data.box.tab.type.navigation.tar">com.wcfsolutions.wcf.data.box.tab.type.navigation</optionalpackage>
-	</optionalpackages>
+	</optionalpackages>-->
 	
 	<instructions type="install">
 		<!-- files -->
-		<files>files.tar</files>
-		<acptemplates>acptemplates.tar</acptemplates>
+		<file>files.tar</file>
+		<acptemplate>acptemplates.tar</acptemplate>
 		<sql>install.sql</sql>
 		<script>acp/install_navigation.php</script>
 		
 		<!-- config -->
-		<acpmenu>acpmenu.xml</acpmenu>
-		<groupoptions>groupoptions.xml</groupoptions>
-		
-		<!-- languages -->
-		<languages languagecode="de">de.xml</languages>
-		<languages languagecode="de-informal">de-informal.xml</languages>
-	</instructions>
-	
-	<instructions type="update" fromversion="1.1.0 RC 1">
-		<x></x>
-	</instructions>
-	
-	<instructions type="update" fromversion="1.0.2">
-		<!-- files -->
-		<files>files.tar</files>
-		<acptemplates>acptemplates.tar</acptemplates>
-		<sql>update_102.sql</sql>
-		<script>acp/install_navigation.php</script>
-		
-		<!-- config -->
-		<acpmenu>acpmenu.xml</acpmenu>
-		<groupoptions>groupoptions.xml</groupoptions>
+		<acpMenu>acpmenu.xml</acpMenu>
+		<groupOptions>groupoptions.xml</groupOptions>
 		
 		<!-- languages -->
 		<languages languagecode="de">de.xml</languages>
