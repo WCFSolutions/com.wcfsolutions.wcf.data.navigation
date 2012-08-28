@@ -51,7 +51,7 @@
 		<item name="wcf.acp.navigation.item.navigationID"><![CDATA[Navigation]]></item>
 		<item name="wcf.acp.navigation.item.navigationID.description"><![CDATA[Wählen Sie eine Navigation.]]></item>
 		<item name="wcf.acp.navigation.item.navigationItem"><![CDATA[Eintrag]]></item>
-		<item name="wcf.acp.navigation.item.navigationItemID"><![CDATA[Eintrag-ID]]></item>
+		<item name="wcf.acp.navigation.item.navigationItemID"><![CDATA[Eintrags-ID]]></item>
 		<item name="wcf.acp.navigation.item.showOrder"><![CDATA[Reihenfolge]]></item>
 		<item name="wcf.acp.navigation.item.showOrder.description"><![CDATA[Geben Sie hier die Position des Eintrags in der Navigation an.]]></item>
 		<item name="wcf.acp.navigation.item.title"><![CDATA[Titel]]></item>
@@ -63,7 +63,7 @@
 		<item name="wcf.acp.navigation.item.view.count.noNavigations"><![CDATA[Derzeit sind keine Navigationen vorhanden, zu denen Einträge hinzugefügt werden könnten.]]></item>
 		<item name="wcf.acp.navigation.item.view.count.noNavigationItems"><![CDATA[Derzeit sind keine Einträge vorhanden.]]></item>
 		<item name="wcf.acp.navigation.items"><![CDATA[Einträge auflisten]]></item>
-		<item name="wcf.acp.navigation.navigationID"><![CDATA[Navigation-ID]]></item>
+		<item name="wcf.acp.navigation.navigationID"><![CDATA[Navigations-ID]]></item>
 		<item name="wcf.acp.navigation.navigationItems"><![CDATA[Einträge]]></item>
 		<item name="wcf.acp.navigation.title"><![CDATA[Titel]]></item>
 		<item name="wcf.acp.navigation.view"><![CDATA[Navigationen]]></item>
