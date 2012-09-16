@@ -45,7 +45,7 @@
 		<item name="wcf.acp.navigation.item.icon"><![CDATA[Filename of the icon]]></item>
 		<item name="wcf.acp.navigation.item.icon.description"><![CDATA[Please enter the filename of a small image (size "S", usually 16px:16px) which is located in the icon folder.]]></item>
 		<item name="wcf.acp.navigation.item.language"><![CDATA[Language]]></item>
-		<item name="wcf.acp.navigation.item.language.description"><![CDATA[Please select the language of the following texts please.]]></item>
+		<item name="wcf.acp.navigation.item.language.description"><![CDATA[Please select the language of the following texts.]]></item>
 		<item name="wcf.acp.navigation.item.navigation"><![CDATA[Navigation]]></item>
 		<item name="wcf.acp.navigation.item.navigation.description"><![CDATA[Choose the navigation whose items you would like to manage.]]></item>
 		<item name="wcf.acp.navigation.item.navigationID"><![CDATA[Navigation]]></item>
